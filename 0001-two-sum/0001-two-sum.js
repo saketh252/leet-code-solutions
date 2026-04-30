@@ -1,26 +1,21 @@
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-var twoSum = function(nums, target) {
-    let seen={}// store all the values in key values pairs
 
-    for(let i=0;  i<nums.length; i++){
+ //* @param {number[]} nums//
+ //* @param {number} target//
+ //* @return {number[]}
+ var twoSum = function(nums, target) {
+    let map ={};//storing the hasmap in one place
 
-        let current =nums[i];// loop and break everything equally
+    for (let i=0;i<nums.length;i++){//
+        let complement = target -nums[i];
 
-        let complement =target-current;
-
-        if (seen[complement]!==undefined){
-
-
-            return[seen[complement],i];
+        if (map[complement]!== undefined){
+            return[map [complement],i];
 
         }
-        seen [current]=i;
+        map[nums[i]]=i;
     }
+};
 
 
         
-};
+
