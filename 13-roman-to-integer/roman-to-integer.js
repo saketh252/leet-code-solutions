@@ -14,8 +14,8 @@ var romanToInt = function (s){
     }
     let total =0;
     for(let i=0;i<s.length;i++){
-        let curr=s[i]
-        let next =s[i+1]
+       let curr = s[i]
+       let next = s[i+1]
 
         if(symbol[curr]<symbol[next]){
             total -= symbol[curr]
