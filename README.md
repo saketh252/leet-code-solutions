@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/saketh252/leet-code-solutions/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/saketh252/leet-code-solutions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/saketh252/leet-code-solutions/tree/master/0013-roman-to-integer) |
 ## String
@@ -35,4 +36,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1929-concatenation-of-array](https://github.com/saketh252/leet-code-solutions/tree/master/1929-concatenation-of-array) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/saketh252/leet-code-solutions/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/saketh252/leet-code-solutions/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
